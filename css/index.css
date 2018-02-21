@@ -1,0 +1,112 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background: #ccc;
+}
+div
+{
+    background: #FFF;
+    font-size: 13px;
+}
+#title
+{
+    position: fixed;
+    width:100%;
+    height:35px;
+    text-align: center;
+    line-height:35px;
+}
+.empty
+{
+    height:35px
+}
+.row-cont
+{
+    margin-top:4px;
+}
+.row
+{
+    padding:0 13px;
+    height:41px;
+    box-sizing: border-box;
+    line-height: 40px;
+    border-bottom:1px solid #EEE;
+}
+.row-item
+{
+    float:left;
+    border-bottom:1px solid #EEE;
+}
+.row-show
+{
+    text-align: right;
+}
+.row-input
+{
+    float:right;
+    width:80%;
+    height:100%;
+    border-bottom:1px solid #EEE;
+}
+.row-input input
+{
+    text-align:left;
+    border:none;
+    width:100%;
+    margin-top:6px;
+    height:28px;
+}
+#money_input
+{
+    width:calc(100% - 15px);
+}
+/*.row-input input:focus
+{
+    text-align:center;
+}*/
+#banner
+{
+    height:42px;
+    position:fixed;
+    width:100%;
+    bottom:0;
+}
+.info
+{
+    float:left;
+    height:31px;
+    margin-top:2px;
+    margin-left:4px;
+}
+.label
+{
+    height:17px;
+}
+.money
+{
+    color:#FFCA3B;
+}
+.unimportant
+{
+    height:14px;
+    font-size:80%;
+    color:#DDD;
+}
+.submit
+{
+    float:right;
+    width:25%;
+    height:100%;
+}
+.submit input
+{
+    height:100%;
+    width:100%;
+    background:#2EDBA2;
+    color:#FFF;
+    border:none;
+}
